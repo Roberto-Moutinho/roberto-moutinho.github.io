@@ -1504,3 +1504,17 @@ button,a { -webkit-tap-highlight-color: transparent; }
     transform: none;
   }
 }
+
+.language-button img {
+  width: 23px;
+  height: 16px;
+  object-fit: cover;
+  border-radius: 2px;
+  display: block;
+}
+
+.language-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
